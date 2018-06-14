@@ -1,0 +1,31 @@
+{
+  "name": "hyperapp-router5-adapter",
+  "version": "0.1.0",
+  "description": "Router5 adapter for Hyperapp",
+  "author": "gwn <ege@ege.wtf>",
+  "keywords": [
+    "hyperapp",
+    "router5",
+    "router",
+    "navigation",
+    "history"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwn/hyperapp-router5-adapter.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "hyperapp": "^1.2.6"
+  },
+  "peerDependencies": {
+    "router5": "^6.2.4 || ^5.8.3"
+  }
+}

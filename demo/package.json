@@ -1,0 +1,17 @@
+{
+  "name": "hyperapp-router5-adapter-demo",
+  "scripts": {
+    "bundle": "browserify index.js > bundle.js",
+    "serve": "history-server ."
+  },
+  "dependencies": {
+    "@hyperapp/fx": "^0.7.0",
+    "@hyperapp/html": "^1.1.1",
+    "hyperapp": "^1.2.6",
+    "router5": "^6.2.4"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "history-server": "^1.3.1"
+  }
+}

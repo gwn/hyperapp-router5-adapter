@@ -1,0 +1,4 @@
+To run the demo:
+
+    npm run bundle
+    npm run serve
