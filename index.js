@@ -4,12 +4,10 @@ var subscribedRouters = { /* [name]: { actions: <routerActionsHash> }, ... */ }
 
 var makeRouterAdapter = function(router) {
     return {
-        state: {
-            route: router.getState(),
-        },
+        state: router.getState(),
 
         actions: {
-            update: function(route) { return { route: route } },
+            update: function(route) { return route },
             navigate: function(args) {
                 router.navigate(args.to, args.params, args.opts)
             },
