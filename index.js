@@ -52,6 +52,11 @@ var Link = function(props, children) {
         })
     }
 
+    if (children.nodeName === 'a') {
+        children.attributes = Object.assign(finalProps, children.attributes)
+        return children
+    }
+
     return h('a', finalProps, children)
 }
 
