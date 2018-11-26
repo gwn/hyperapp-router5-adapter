@@ -69,8 +69,8 @@ const view = (state, actions) => div([
 
     p([
         'Current route is: ',
-        strong(state.router.route.name),
-        pre(JSON.stringify(state.router.route, null, 4)),
+        strong(state.router.name),
+        pre(JSON.stringify(state.router, null, 4)),
     ])
 ])
 
