@@ -33,17 +33,6 @@ router5Router.start(() => {
 })
 ```
 
-You can also set the app as a dependency to the router if you plan
-to use it in router middleware:
-
-    ...
-
-    const wiredActions = app(state, actions, view, document.body)
-
-    router5Router.setDependency('router', wiredActions)
-
-    ...
-
 ### Install
 
 ```sh
